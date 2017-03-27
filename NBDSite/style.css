@@ -1,0 +1,231 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#wrapper {
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 1000px;
+    min-height: 100vh;
+    /*position: relative;*/
+    /*padding-bottom: 50px;*/
+    /*height: calc(100vh);*/
+    /*min-height: calc(100vh-50px);*/  
+    /*max-height: calc(100%+50px);*/  
+}
+
+#logo {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.center-me {
+    text-align: center;
+}
+
+.go-left {
+    width: 50%;
+    float: left;
+}
+
+.go-right {
+    width: 50%;
+    float: right;
+}
+
+.clear-me {
+    clear: both;
+}
+
+legend {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#login {
+    text-align: left;
+    width: 400px;
+    border: solid 2px rgb(110, 182, 0);
+	padding: 20px;
+	margin: 0 auto;
+    font-family: 'Cabin', sans-serif;
+}
+
+table {
+    width: 100%;
+}
+
+fieldset {
+    text-align: left;
+    width: 100%;
+    border: solid 2px rgb(110, 182, 0);
+	padding: 20px;
+	/*margin: 0 auto;*/
+    font-family: 'Cabin', sans-serif;
+}
+
+#curProj fieldset {
+    text-align: left;
+}
+
+fieldset p {
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+    /*width: 98%;*/
+    height: 25px;
+	outline: none;
+	padding-left: 5px;
+	border: solid 1px gray;
+	border-radius: 4px;
+    /*margin-bottom: 10px;*/
+}
+
+#login input[type=text], #login input[type=password] {
+    width: 100%;
+    height: 25px;
+	outline: none;
+	padding-left: 5px;
+	border: solid 1px gray;
+	border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#btnLogin {
+    margin-top: 10px;
+}
+
+#btnLogout {
+    font-size: 15px;
+}
+
+.ddl {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 25px;
+    border-radius: 4px;
+    outline: none;
+	border: solid 1px gray;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    box-shadow: 0 0 10px rgb(110, 182, 0);
+	border: solid 1px #006f09;
+	border-radius: 4px;
+}
+
+input[type=submit] {
+    color: #ffffff;
+    /*font-size: 13px;*/
+	font-family: 'Ubuntu', sans-serif;
+	border: none;
+	background: #006f09;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    background: rgb(110, 182, 0);
+}
+
+#btnLogin, #btnRegister {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#lblWelcome, #lblDate {
+    font-family: 'Cabin', sans-serif;
+}
+
+#btnLogout {
+    font-family: 'Cabin', sans-serif;
+    background: none;
+    padding: 0px;
+    color: green;
+}
+
+#btnLogout:hover {
+    color: lightgreen;
+}
+
+.outter {
+    height: 75px;
+    position: relative;
+}
+
+.inner {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    background: green;
+    padding: 10px;
+    overflow: hidden;
+    /*left/right top/bottom blurring position*/
+    -webkit-box-shadow: 0 4px 4px -2px #000000;
+    -moz-box-shadow: 0 4px 4px -2px #000000;
+    box-shadow: 0 4px 4px -2px #000000;
+}
+
+nav a {
+    color: #ffffff;
+    padding: 0px 20px;
+}
+
+nav a:hover {
+    background: lightgreen;
+    padding: 20px 20px;
+}
+
+.panel {
+    display: none;
+    background: #0d0d0d;
+    padding: 10px;
+}
+
+.panel a {
+    padding: 0px 20px;
+    color: #808080;
+}
+
+.panel a:hover {
+    color: #ffffff;
+}
+
+#p1 {
+    width:30%;
+    border:1px solid black;
+    padding:20px 0px 20px 50px;
+}
+
+footer {
+    width: 1000px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    padding: 20px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+    /*height: 50px;*/
+}
